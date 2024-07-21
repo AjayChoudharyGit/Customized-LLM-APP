@@ -1,4 +1,44 @@
-# Customized-LLM-APP
+# Fitness Coach RAG Chatbot
+
+Welcome to the Fitness Coach RAG Chatbot project! This application provides personalized fitness advice, workout routines, and progress tracking by combining document retrieval with a language model.
+
+## Features
+
+- **Personalized Fitness Advice:** Get tailored advice on fitness routines and nutrition.
+- **Workout Routines:** Generate custom workout plans based on your goals.
+- **Progress Tracking:** Track your fitness progress.
+- **Document Retrieval:** Uses a fitness guide to enhance responses with specific information.
+
+## Setup
+
+### Prerequisites
+
+Ensure you have Python 3.7+ installed on your system. You will need to install the packages listed in `requirements.txt`.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/fitness-coach-rag-chatbot.git
+    cd fitness-coach-rag-chatbot
+    ```
+
+2. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Download and place your fitness-related PDF as `Fitness_Guide.pdf` in the same directory as `app.py`.
+
+### Running the App
+
+To start the application, run:
+
+```bash
+python app.py
+
 
 Building a Retrieval-Augmented Generation (RAG) bot can significantly enhance the capabilities of a language model by incorporating external knowledge to generate more accurate and contextually relevant responses. This guide will walk you through creating a simple RAG bot using Gradio and the Hugging Face APIs.
 
